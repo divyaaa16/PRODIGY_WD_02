@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(8, 7, 30);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 10px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+.msg{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    color: white;
+    font-size: 30px;
+    margin-top: 25px;
+    
+
+
+}
+.start{
+    margin-right: 40px;
+}
+.reset{
+    margin-right: 40px;
+}
+.symbol{
+     display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 22rem;
+
+   
+}
+.start_symbol{
+color: white;
+font-size: xx-large;
+margin-left: 5px;
+}
+.reset_symbol{
+color: white;
+font-size: xx-large;
+}
+.lap_symbol{
+    margin-left: 10px;
+    color: white;
+font-size: xx-large;
+}
+.pause_symbol{
+    margin-left: 10px;
+    color: white;
+font-size: xx-large;
+}
+.lapStore{
+    color: white;
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+
